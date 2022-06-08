@@ -5,6 +5,7 @@ DROP table if exists random_data;
 
 CREATE TABLE random_data 
 (
+    id INT GENERATED ALWAYS AS IDENTITY,
     is_active	varchar(300),
     balance	varchar(300),
     age	varchar(300),
